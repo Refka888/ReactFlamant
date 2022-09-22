@@ -1,0 +1,67 @@
+
+.one{
+    width: 25%;
+    height: 40%;
+    margin: 3%;
+    display: inline-block;
+  
+}
+.one:hover .image{
+    transform:scale(1.05);
+    opacity: 1.8;
+    border:rgb(37, 36, 36) 1px solid;
+}
+.Card.Img{
+width:100px;
+height: 100px;
+}
+/*******************************************inscription page************************************/
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .card2{
+        border-radius: 15px;
+    }
+    .img22{
+        background-image: url('../images/fond.jpg');
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+    /*******************************************connexion page**************************/
+    /* j'ai choisi de mettre le terme One après les composente html pour se distinguer du reste du projet */
+    .sec1{
+        background-color: #9A616D;
+    }
+    .div1{
+        border-radius: 1rem;
+    }
+    .imgFond{
+        border-radius: 1rem 0 0 1rem;
+    }
+    .iOne{
+        color: #ff6219;
+    }
+    .h5One{
+        letter-spacing: 1px;
+    }
+    .pOne{
+        color: #393f81;
+    }
+    .aOne{
+        color: #393f81;
+    }
