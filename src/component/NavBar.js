@@ -53,7 +53,7 @@ export default class NavBar extends Component {
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search</Button>
+                  <Button variant="outline-info">Search</Button>
                 </Form>
               </Navbar.Collapse>
             </Container>

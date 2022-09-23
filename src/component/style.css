@@ -43,25 +43,56 @@ height: 100px;
     background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
     }
     /*******************************************connexion page**************************/
-    /* j'ai choisi de mettre le terme One après les composente html pour se distinguer du reste du projet */
-    .sec1{
-        background-color: #9A616D;
+  .pConnexion{
+    color: hsl(218, 81%, 85%);
+  }
+  .spanConnexion{
+    color: hsl(218, 81%, 75%);
+  }
+  .h1Connexion{
+    color: hsl(218, 81%, 95%);
+  }
+  .divConnexion{
+    z-index: 10;
+  }
+    .background-radial-gradient {
+      background-color: hsl(218, 41%, 15%);
+      background-image: radial-gradient(650px circle at 0% 0%,
+          hsl(218, 41%, 35%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%),
+        radial-gradient(1250px circle at 100% 100%,
+          hsl(218, 41%, 45%) 15%,
+          hsl(218, 41%, 30%) 35%,
+          hsl(218, 41%, 20%) 75%,
+          hsl(218, 41%, 19%) 80%,
+          transparent 100%);
     }
-    .div1{
-        border-radius: 1rem;
+
+    #radius-shape-1 {
+      height: 220px;
+      width: 220px;
+      top: -60px;
+      left: -130px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
     }
-    .imgFond{
-        border-radius: 1rem 0 0 1rem;
+
+    #radius-shape-2 {
+      border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+      bottom: -60px;
+      right: -110px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(#44006b, #ad1fff);
+      overflow: hidden;
     }
-    .iOne{
-        color: #ff6219;
+
+    .bg-glass {
+      background-color: hsla(0, 0%, 100%, 0.9) !important;
+      backdrop-filter: saturate(200%) blur(25px);
     }
-    .h5One{
-        letter-spacing: 1px;
-    }
-    .pOne{
-        color: #393f81;
-    }
-    .aOne{
-        color: #393f81;
-    }
+
+
