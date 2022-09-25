@@ -31,31 +31,15 @@ export default class Connexion extends Component {
           <div className="card-body px-4 py-5 px-md-5">
             <form>
             
-              <div className="row">
-                <div className="col-md-6 mb-4">
-                  <div className="form-outline">
-                    <input type="text" id="form3Example1" className="form-control" />
-                    <label className="form-label" for="form3Example1">First name</label>
-                  </div>
-                </div>
-                <div className="col-md-6 mb-4">
-                  <div className="form-outline">
-                    <input type="text" id="form3Example2" className="form-control" />
-                    <label className="form-label" for="form3Example2">Last name</label>
-                  </div>
-                </div>
-              </div>
-
-            
               <div className="form-outline mb-4">
-                <input type="email" id="form3Example3" className="form-control" />
-                <label className="form-label" for="form3Example3">Email address</label>
+              <label className="form-label" for="form3Example3">Email address</label>
+              <input type="email" id="form3Example3" className="form-control" />
               </div>
 
            
               <div className="form-outline mb-4">
-                <input type="password" id="form3Example4" className="form-control" />
-                <label className="form-label" for="form3Example4">Password</label>
+              <label className="form-label" for="form3Example4">Password</label>
+              <input type="password" id="form3Example4" className="form-control" />
               </div>
 
             
@@ -78,9 +62,7 @@ export default class Connexion extends Component {
                   <i className="fab fa-facebook-f"></i>
                 </button>
 
-                <button type="button" className="btn btn-link btn-floating mx-1">
-                  <i className="fab fa-google"></i>
-                </button>
+              
 
                 <button type="button" className="btn btn-link btn-floating mx-1">
                   <i className="fab fa-twitter"></i>
