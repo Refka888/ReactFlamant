@@ -35,6 +35,9 @@ export default class NavBar extends Component {
                 <Nav.Link as={Link} to={"/connexion"}>
                   Connexion
                 </Nav.Link>
+                <Nav.Link as={Link} to={"/adminInterface"}>
+                  Administrateur
+                </Nav.Link>
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
@@ -47,7 +50,7 @@ export default class NavBar extends Component {
                 </NavDropdown>
               </Nav>
 
-              <form className="d-flex input-group ms-5 ">
+              <form className="d-flex input-group ms-5 cacher">
                 <input
                   type="search"
                   className="form-control"
@@ -58,7 +61,7 @@ export default class NavBar extends Component {
                   Search
                 </MDBBtn>
               </form>
-              <MDBNavbarNav className="d-flex flex-row-reverse">
+              <MDBNavbarNav className="d-flex flex-row-reverse cacher">
                 <MDBNavbarItem>
                   <MDBNavbarLink as={Link} to={"/Panier"}>
                     Panier
