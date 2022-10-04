@@ -1,25 +1,29 @@
 import "./style.css";
 
-
-
 const Inscription = () => {
 
-    const handleClick = () =>{
-        document.getElementById("menu").innerHTML = ('this is user section' );
+    const Users = () =>{
+        document.getElementById("menu").innerHTML = ('<p>this is user section</p>' );
     } 
-    const handleClickAgain = (name) =>{
-        document.getElementById("menu").innerHTML = ('This is ' + name + ' section' );
+    const categories = () =>{
+        document.getElementById("menu").innerHTML = ('This is categories section' );
     } 
+    const Products = () =>{
+      document.getElementById("menu").innerHTML = ('This is Products section' );
+  }
+  const Orders = () =>{
+    document.getElementById("menu").innerHTML = ('This is Orders section' );
+}
 
  
     return (
       <div className="container containerAdmin">
          <h3><em>Tableau de bord</em></h3>
                 <div className="cat tab2">
-                    <p onClick={handleClick} className="boutton">Users</p>
-                    <p onClick={handleClickAgain('Catégories')} className="boutton">Catégories</p>
-                    <p className="boutton">Products</p>
-                    <p className="boutton">Orders</p>
+                    <p onClick={Users} className="boutton">Users</p>
+                    <p onClick={categories} className="boutton">Catégories</p>
+                    <p  onClick={Products}  className="boutton">Products</p>
+                    <p onClick={Orders}  className="boutton">Orders</p>
                 </div>
                 <div className="menu tab3" >
                         <p id="menu"></p>
