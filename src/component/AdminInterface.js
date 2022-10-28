@@ -1,4 +1,5 @@
 import "./style.css";
+import NavBarTwo from './NavBarTwo';
 
 const Inscription = () => {
 
@@ -17,7 +18,10 @@ const Inscription = () => {
 
  
     return (
+      <div>
+      <NavBarTwo />
       <div className="container containerAdmin">
+
          <h3><em>Tableau de bord</em></h3>
                 <div className="cat tab2">
                     <p onClick={Users} className="boutton">Users</p>
@@ -28,9 +32,7 @@ const Inscription = () => {
                 <div className="menu tab3" >
                         <p id="menu"></p>
                 </div>
-            
-
-     
+     </div>
       </div>
     );
   }

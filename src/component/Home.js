@@ -1,12 +1,14 @@
 import CardDetails from "./CardDetails";
-
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
 import img3 from "../images/img3.jpg";
 import img4 from "../images/img4.jpg";
 import img5 from "../images/img5.jpg";
 import img6 from "../images/img6.jpg";
-
+import Data from "./Data";
+import CardDetailsTwo from "./CardDetailsTwo";
 
 const Home = () => {
   const data = [
@@ -21,9 +23,13 @@ const Home = () => {
   const printTitle = (message) => {
     alert(" this from app file" + message);
   };
+
+ 
   return (
     <div>
-  
+    <NavBar />
+ 
+    <CardDetailsTwo />
       {data.map((item, index) => {
         return (
           <CardDetails
@@ -35,7 +41,7 @@ const Home = () => {
           />
         );
       })}
-
+  <Footer />
     </div>
   );
 };

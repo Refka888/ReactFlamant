@@ -1,10 +1,11 @@
-  import React, { Component } from "react";
+import React, { Component } from "react";
 import "./style.css";
-
+import NavBarTwo from './NavBarTwo';
 export default class Inscription extends Component {
   render() {
     return (
       <div>
+      <NavBarTwo />
         <section
           className=" bg-image img22">
           <div className="mask d-flex align-items-center h-100 gradient-custom-3">
